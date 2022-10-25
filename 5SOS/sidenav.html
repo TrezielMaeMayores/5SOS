@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contant="IE-Edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>Blue</title>
+    <title>5SOS</title>
+</head>
+<body class="blue lighten-4">
+
+<!-- navbar -->
+<nav class="nav-extended navbar-fixed">
+    <div class="nav-wrapper blue darken-4 ">
+      <a href="#" class="brand-logo center">Logo</a>
+      <a href="#" data-target="sidenav" class="sidenav-trigger show-on-large"><i class="material-icons">dehaze</i></a>
+    </div>
+</nav>
+<!-- side nav -->
+      <ul id="sidenav" class="sidenav blue lighten-3">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="2.jpg">
+            </div>
+              <a href="#user"><img class="circle" src="images/jeong.JPG"></a>
+              <a href="#name"><span class="white-text name">Yoo Jeongyeon</span></a>
+              <a href="#email"><span class="white-text email">yoojeong@gmail.com</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="#!" class="material-boxed"><i class="material-icons">search</i>Search</a>
+        </li>
+        <li>
+          <a href="#!"><i class="material-icons">vertical_align_top</i>Update</a>
+        </li>
+        <li>
+          <a href="#!"><i class="material-icons">settings</i>Settings</a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+<!-- dropdown trigger -->
+        <li>
+          <a class="dropdown-trigger btn blue darken-3" href="#" data-target="dropdown1">Favorites</a>
+        </li>
+<!-- dropdown structure -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li>
+              <a class="waves-effect" href="#!">Foliage</a>
+            </li>
+            <li>
+              <a class="waves-effect" href="#!">Paint</a>
+            </li>
+          </ul>
+<!-- dropdown trigger -->
+        <li>
+          <a class="dropdown-trigger btn blue darken-3" href="#" data-target="dropdown2">Private</a>
+        </li>
+<!-- dropdown structure -->
+        <ul id="dropdown2" class="dropdown-content">
+          <li>
+            <a class="waves-effect" href="#!">Starry night</a>
+          </li>
+          <li>
+            <a class="waves-effect" href="#!">Like</a>
+          </li>
+        </ul>
+        <li>
+          <div class="divider"></div>
+        </li>
+
+      </ul>
+
+
+<!-- cards indeterminate -->
+<div class="container">
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/2.jpg">
+          <span class="card-title">mist</span>
+        </div>
+        <div class="card-content">
+          <div class="progress">
+            <div class="indeterminate"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/1.jpg">
+          <span class="card-title">starry night</span>
+        </div>
+        <div class="card-content">
+          <div class="progress">
+            <div class="indeterminate"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/3.jpg">
+          <span class="card-title">foliage</span>
+        </div>
+        <div class="card-content">
+          <div class="progress">
+            <div class="indeterminate"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/4.jpg">
+          <span class="card-title">paint</span>
+        </div>
+        <div class="card-content">
+          <div class="progress">
+            <div class="determinate" style="width: 20%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/5.jpg">
+          <span class="card-title">paint</span>
+        </div>
+        <div class="card-content">
+          <div class="progress">
+            <div class="determinate" style="width: 80%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>   
+
+<section class="section section-stats">
+  <div class>
+
+  </div>
+</section>
+
+
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav({
+        draggable:true
+      });
+
+      $('.dropdown-trigger').dropdown();
+    });
+  </script>
+
+
+
+</body>
+</html>
