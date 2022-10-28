@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" contant="IE-Edge">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <title>Blue</title>
-    <title>5SOS</title>
 </head>
 <body class="blue lighten-4">
 
 <!-- navbar -->
 <nav class="nav-extended navbar-fixed">
     <div class="nav-wrapper blue darken-4 ">
-      <a href="#" class="brand-logo center">Logo</a>
+      <a href="#" class="brand-logo center">Blue</a>
       <a href="#" data-target="sidenav" class="sidenav-trigger show-on-large"><i class="material-icons">dehaze</i></a>
     </div>
 </nav>
@@ -23,7 +23,7 @@
         <li>
           <div class="user-view">
             <div class="background">
-              <img src="2.jpg">
+              <img src="images/2.jpg">
             </div>
               <a href="#user"><img class="circle" src="images/jeong.JPG"></a>
               <a href="#name"><span class="white-text name">Yoo Jeongyeon</span></a>
@@ -151,28 +151,34 @@
   </div>
 </div>   
 
-<section class="section section-stats">
-  <div class>
-
-  </div>
-</section>
-
+<!-- chart -->
+<div class="container">
+  <div id="chartcontainer" style="height: 300px; width:100%;"></div>
+</div>
 
 
-  <!-- Jquery CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
 
-  <script>
-    $(document).ready(function(){
-      $('.sidenav').sidenav({
-        draggable:true
-      });
 
-      $('.dropdown-trigger').dropdown();
+
+
+ <!-- Jquery CDN -->
+ <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+ <!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+<!-- CDN Canvas.js -->
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript" src="js/js/js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav({
+      draggable:true
     });
-  </script>
+
+    $('.dropdown-trigger').dropdown();
+  });
+</script>
+
 
 
 

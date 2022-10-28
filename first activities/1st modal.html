@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contant="IE-Edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>maemae</title>
+    <title>MODAL</title>
+</head>
+
+<body class="grey">
+    <div class="container">
+        <h1 style="color:blue;">HELLO Y'ALL</h1>
+        <P> DON'T CLICK THE BUTTON BELLOW!!!</P>
+
+
+      <!-- Modal Trigger -->
+      <button data-target="modal1" class="waves-effect waves-GREY btn modal-trigger blue">modal with fixed footer</button>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="modal-content blue">
+          <h4 class="color:violet">WARNING!</h4>
+          <h4 style="color:blueviolet">THE FAR YOU'RE TRYING TO DOWNLOAD MAY CAUSE HARM TO YOUR DEVICE, DO YOU STILL WANT TO CONTINUE?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, libero, cum eius et repellat iusto 
+              nostrum voluptatem inventore provident sunt voluptas ullam fugit nam omnis aspernatur aliquam sapiente nihil perspiciatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, libero, cum eius et repellat iusto 
+              nostrum voluptatem inventore provident sunt voluptas ullam fugit nam omnis aspernatur aliquam sapiente nihil perspiciatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, libero, cum eius et repellat iusto 
+              nostrum voluptatem inventore provident sunt voluptas ullam fugit nam omnis aspernatur aliquam sapiente nihil perspiciatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, libero, cum eius et repellat iusto 
+              nostrum voluptatem inventore provident sunt voluptas ullam fugit nam omnis aspernatur aliquam sapiente nihil perspiciatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, libero, cum eius et repellat iusto 
+              nostrum voluptatem inventore provident sunt voluptas ullam fugit nam omnis aspernatur aliquam sapiente nihil perspiciatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, libero, cum eius et repellat iusto 
+              nostrum voluptatem inventore provident sunt voluptas ullam fugit nam omnis aspernatur aliquam sapiente nihil perspiciatis.</p>
+        </div>
+        <div class="modal-footer grey">
+          <a href="#!" class="modal-close waves-effect waves-GREY btn-flat"><b>YES, I'M SURE!</b></a>
+          <a href="#!" class="modal-close waves-effect waves-GREY btn-flat"><b>NO, WAIT!</b></a>
+        </div>
+      </div>
+    </div>
+
+<br><br><br>
+<div class="container">
+    <!-- Modal Trigger -->
+    <button data-target="modal2" class="waves-effect waves-GREY btn modal-trigger green">bottom sheet modal</button>
+    
+      <!-- Modal Structure -->
+    <div id="modal2" class="modal bottom-sheet">
+        <div class="modal-content yellow">
+            <h4>I'm so cute</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-content blue">
+            <h4>no you're not</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-content red">
+            <h4>yes, I am!</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-content green">
+            <h4>no you're not!</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer green">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">I REFUSE!</a>
+    </div>
+</div>
+
+<!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+<script>
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+</script>
+
+
+
+</body>
+</html>
