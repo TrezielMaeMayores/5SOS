@@ -1,0 +1,59 @@
+body{
+    background: whitesmoke;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    background: blueviolet;
+    color: rgb(46, 10, 10);
+    border: none;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:antiquewhite;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+li {
+    text-align: center;
+}
+
+div {
+   background-color: aqua; 
+   margin:100;
+    padding: 0;
+    width: 200px;
+}
+
+footer{
+    font-size:large;
+    text-align: center;
+    color: black;
+    padding: 3px;
+    font-style: inherit;
+    background-color:aqua;
+}

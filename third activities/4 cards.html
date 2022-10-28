@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>My Playlist</title>
+</head>
+
+<body>
+<br> <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m3 ">
+                <a href="#modal1" class="modal-trigger">
+                    <div class="card">
+                        <div class="pink lighten-3">
+                            <div class="card-image">
+                                <img class="materialboxed" src="images/luke hemmings.jpg">
+                                <span class="card-title">Luke Hemmings</span>
+                            </div>
+                            <div class="card-content">
+                                <p style=color:white>Vocalist</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col s12 m3 ">
+                <a href="#modal2" class="modal-trigger">
+                    <div class="card">
+                        <div class="pink lighten-3">
+                            <div class="card-image">
+                                <img class="materialboxed" src="images/ashton irwin.jpg">
+                                <span class="card-title">Ashton Irwin</span>
+                            </div>
+                            <div class="card-content">
+                                <p style=color:white>Drummer</p>
+                            </div>
+                        </div> 
+                    </div>
+                </a>
+            </div>
+
+            <div class="col s12 m3 ">
+                <a href="#modal3" class="modal-trigger">
+                    <div class="card">
+                        <div class="pink lighten-3">
+                            <div class="card-image">
+                                <img class="materialboxed" src="images/calum hood.jpg">
+                                <span class="card-title">Calum Hood</span>
+                            </div>
+                            <div class="card-content">
+                                <p style=color:white>Bass</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col s12 m3">
+                <a href="#modal4" class="modal-trigger">
+                    <div class="card">
+                        <div class="pink lighten-3">
+                            <div class="card-image">
+                                <img class="materialboxed" src="images/michael clifford.jpg">
+                                <span class="card-title">Michael Clifford</span>
+                            </div>
+                            <div class="card-content">
+                                <p style=color:white>Guitarist</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded',function(){
+        var mod=document.querySelectorAll('.modal')
+        M.Modal.init(mod)
+    })
+</script>
+</body>
+</html>
